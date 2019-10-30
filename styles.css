@@ -1,0 +1,58 @@
+/* Elements */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+	width: 15em;
+	height: 15em;
+	background-color: teal;
+	border-radius: 50%;
+	position: absolute;
+	left: 70%;
+	top: 30%;
+}
+
+.line {
+	height: 100px;
+	width: 55%;
+	background-color: steelblue;
+	transform: rotate(-90deg);
+}
+
+.line-2 {
+	width: 200em;
+	height: 4em;
+	transform: rotate(20deg);
+	position: absolute;
+	top: 85%;
+	left: -40%;
+	
+}
+.triangle {
+	transform: rotate(45deg);
+	position: absolute;
+	width: 12em;
+	height: 12em;
+	background-color: white;
+	left: 72%;
+	top: 33%;
+}
+.dot {
+	height: 50px;
+	width: 50px;
+	background-color: darkslategrey;
+	border-radius: 50%;
+	display: inline-block;
+	left: 65%;
+	top: 25%;
+}
+
+
